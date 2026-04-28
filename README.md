@@ -5,61 +5,107 @@ Google Play Scraper + Advanced NLP + ML Models
 Bu proje, Google Play Store’daki uygulama yorumlarını otomatik olarak toplayıp gelişmiş NLP teknikleri ve makine öğrenmesi modelleri ile duygu analizi (sentiment analysis) yapan uçtan uca bir sistemdir.
 
 📌 Proje Özeti
+
 📥 Google Play’den otomatik veri toplama
+
 🇹🇷 Türkçe metinler için özel NLP pipeline
+
 🤖 Birden fazla ML modeli ile karşılaştırmalı analiz
+
 📊 Model performans değerlendirme ve görselleştirme
+
 🧠 SHAP ile model açıklanabilirliği
+
 ⚙️ Kullanılan Teknolojiler
-Python
-scikit-learn
-XGBoost
-LightGBM
-SHAP
-Google Play Scraper
-Pandas / NumPy / Matplotlib
+
+-Python
+
+-scikit-learn
+
+-XGBoost
+
+-LightGBM
+
+-SHAP
+
+-Google Play Scraper
+
+-Pandas / NumPy / Matplotlib
+
 ✨ Özellikler
 
 🔹 Veri Toplama
+
 Google Play Scraper ile:
+
 WhatsApp
+
 TikTok
+
 Instagram
+
 Facebook
+
 X (Twitter)
+
 Telegram
-50.000+ yorum otomatik çekilir
+
+10.000+ yorum otomatik çekilir
+
 
 🔹 Türkçe NLP Ön İşleme
+
 Stopword temizleme (özel liste)
+
 Noktalama temizleme
+
 Küçük/büyük harf normalizasyonu
+
 Tokenization
 
 🔹 Feature Engineering
+
 TF-IDF (Unigram + Bigram)
+
 Ek özellikler:
-kelime sayısı
-büyük harf oranı
-ünlem sayısı
+
+-kelime sayısı
+
+-büyük harf oranı
+
+-ünlem sayısı
 
 🔹 Model Eğitimi
+
 Logistic Regression
+
 Random Forest
+
 XGBoost
+
 LightGBM
 
+
 🔹 Hiperparametre Optimizasyonu
+
 GridSearchCV
+
 RandomizedSearchCV
 
+
 🔹 Analiz & Görselleştirme
+
 ROC Curve
+
 Confusion Matrix
+
 Feature Importance
 
+
 🔹 Model Açıklanabilirliği
+
 SHAP (Shapley Values) ile model kararlarını analiz etme
+
 
 📊 Model Performans Karşılaştırması
 | Model               | Accuracy | F1 Score | Precision | Recall |
