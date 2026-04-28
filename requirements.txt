@@ -1,0 +1,25 @@
+# Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# NLP & Text Processing
+nltk>=3.7
+turkishnlp>=0.0.5
+string
+
+# Machine Learning
+scikit-learn>=1.1.0
+xgboost>=1.6.0
+lightgbm>=3.3.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+shap>=0.41.0
+
+# Google Play Scraper
+google-play-scraper>=1.2.0
+
+# Notebook Support
+jupyter>=1.0.0
+ipykernel>=6.15.0
